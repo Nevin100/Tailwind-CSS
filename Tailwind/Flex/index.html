@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex tailwind</title>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<body>
+  <!-- Dispaly-flex : -->
+   <div class="border m-10 flex">
+    <div class="bg-emerald-400 m-3 p-5 w-auto text-white">1</div>
+    <div class="bg-emerald-500 m-3 p-5 w-auto text-white">2</div>
+    <div class="bg-emerald-600 m-3 p-5 w-auto text-white">3</div>
+   </div>
+   <br>
+   <hr>
+   <!--flex-direction: -->
+   <div class="border m-10 flex flex-col">
+    <div class="bg-emerald-400 m-3 p-5 w-auto text-white">a</div>
+    <div class="bg-emerald-500 m-3 p-5 w-auto text-white">b</div>
+    <div class="bg-emerald-600 m-3 p-5 w-auto text-white">c</div>
+   </div>
+   <br>
+   <hr>
+   <!--flex-direction: -->
+   <div class="border m-10 flex justify-center">
+    <div class="bg-indigo-400 m-3 p-5 w-auto text-white">A</div>
+    <div class="bg-indigo-500 m-3 p-5 w-auto text-white">B</div>
+    <div class="bg-indigo-600 m-3 p-5 w-auto text-white">C</div>
+   </div>
+   <br>
+   <hr>
+   <!--Order : -->
+    <div class="border m-10 flex justify-center">
+     <div class="bg-indigo-400 m-3 p-5 w-auto text-white order-3">A</div>
+     <div class="bg-indigo-500 m-3 p-5 w-auto text-white order-1">B</div>
+     <div class="bg-indigo-600 m-3 p-5 w-auto text-white order-2">C</div>
+    </div>
+   <br>
+   <hr>
+   <!--grow & shrink  : -->
+   <div class="border m-10 flex justify-center">
+    <div class="bg-indigo-400 m-3 p-5 w-auto text-white flex-1">A</div>
+    <div class="bg-indigo-500 m-3 p-5 w-auto text-white flex-none">B</div>
+    <div class="bg-indigo-600 m-3 p-5 w-auto text-white flex-2">C</div>
+   </div>
+  <br>
+  <hr>
+</body>
+</html>
